@@ -9115,6 +9115,7 @@ static const struct LevelUpMove sChimcharLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 9, MOVE_TAUNT),
     LEVEL_UP_MOVE(15, MOVE_FURY_SWIPES),
     LEVEL_UP_MOVE(17, MOVE_FLAME_WHEEL),
+    LEVEL_UP_MOVE(20, MOVE_BITE),
     LEVEL_UP_MOVE(23, MOVE_NASTY_PLOT),
     LEVEL_UP_MOVE(25, MOVE_TORMENT),
     LEVEL_UP_MOVE(31, MOVE_FACADE),
@@ -9133,6 +9134,7 @@ static const struct LevelUpMove sMonfernoLevelUpLearnset[] = {
     LEVEL_UP_MOVE(14, MOVE_MACH_PUNCH),
     LEVEL_UP_MOVE(16, MOVE_FURY_SWIPES),
     LEVEL_UP_MOVE(19, MOVE_FLAME_WHEEL),
+    LEVEL_UP_MOVE(23, MOVE_FIRE_FANG),
     LEVEL_UP_MOVE(26, MOVE_FEINT),
     LEVEL_UP_MOVE(29, MOVE_TORMENT),
     LEVEL_UP_MOVE(36, MOVE_CLOSE_COMBAT),
@@ -9312,6 +9314,7 @@ static const struct LevelUpMove sBibarelLevelUpLearnset[] = {
 static const struct LevelUpMove sKricketotLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_BIDE),
+    LEVEL_UP_MOVE(13, MOVE_SING),
     LEVEL_UP_MOVE(16, MOVE_BUG_BITE),
     LEVEL_UP_END
 };
