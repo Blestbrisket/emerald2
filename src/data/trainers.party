@@ -4595,198 +4595,251 @@ Double Battle: No
 AI: Basic Trainer / Force Setup First Turn
 Mugshot: Purple
 
-Mightyena
-Level: 46
+Zoroark @ Sitrus Berry
+Level: 49
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Roar
-- Double Edge
-- Sand Attack
+- Night Daze
+- Sludge Bomb
+- Low Kick
+- U-turn
+
+Scrafty @ Shell Bell
+Level: 48
+Ability: Intimidate
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dragon Dance
+- Crunch
+- Brick Break
+- Head Smash
+
+Cacturne @ Loaded Dice
+Level: 48
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Destiny Bond
+- Pin Missile
+- Needle Arm
+- Spiky Shield
+
+Crawdaunt @ Life Orb
+Level: 48
+Ability: Adaptability
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Crab Hammer
+- Swords Dance
+- Superpower
 - Crunch
 
-Shiftry
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
-
-Cacturne
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Leech Seed
-- Feint Attack
-- Needle Arm
-- Cotton Spore
-
-Crawdaunt
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Surf
-- Swords Dance
-- Strength
-- Facade
-
-Absol @ Sitrus Berry
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rock Slide
-- Swords Dance
-- Slash
-
-=== TRAINER_PHOEBE ===
-Name: PHOEBE
-Class: Elite Four
-Pic: Elite Four Phoebe
-Gender: Female
-Music: Elite Four
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Green
-
-Dusclops
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Curse
-- Protect
-
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Grudge
-- Will O Wisp
-- Feint Attack
-
-Sableye
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
-
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
-
-Dusclops @ Sitrus Berry
+Absol @ Black Glasses
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Ice Beam
-- Rock Slide
-- Earthquake
+- Swords Dance
+- Knock Off
+- Play Rough
+- Iron Tail
 
-=== TRAINER_GLACIA ===
-Name: GLACIA
+Primeape @ Eviolite
+Ability: Anger Point
+Level: 50
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Bulk Up
+- Rage Fist
+- Lash Out
+- Drain Punch
+
+=== TRAINER_PHOEBE ===
+Name: LIZA & TATE
 Class: Elite Four
-Pic: Elite Four Glacia
+Pic: Leader Tate And Liza
 Gender: Female
 Music: Elite Four
-Items: Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
+Double Battle: Yes
+AI: Basic Trainer
+Mugshot: Purple
+
+Grumpig @ Light Clay
+Level: 48
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Reflect
+- Light Screen
+- Psychic
+- Thunder Wave
+
+Chimecho @ Throat Spray
+Level: 49
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dazzling Gleam
+- Recover
+- Psychic Voice
+- Hyper Voice
+
+Metagross @ Assault Vest
+Level: 49
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic Fangs
+- Heavy Slam
+- Bullet Punch
+- Stomping Tantrum
+
+Golduck @ Red Card
+Level: 50
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Flip Turn
+- Muddy Water
+- Ice Beam
+
+Lunatone @ Power Herb
+Level: 51
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Meteor Beam
+- Psyshock
+- Charge Beam
+- Moonlight
+
+Solrock @ Colbur Berry
+Level: 51
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Slide
+- Will-O-Wisp
+- Zen Headbutt
+- Morning Sun
+
+=== TRAINER_GLACIA ===
+Name: ROXANNE
+Class: Elite Four
+Pic: Leader Roxanne
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
-Mugshot: Pink
+Mugshot: Yellow
 
-Sealeo
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Encore
-- Body Slam
-- Hail
-- Ice Ball
-
-Glalie
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Crunch
-- Icy Wind
-- Ice Beam
-
-Sealeo
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Attract
-- Double Edge
-- Hail
-- Blizzard
-
-Glalie
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Explosion
-- Hail
-- Ice Beam
-
-Walrein @ Sitrus Berry
-Level: 53
+Armaldo @ Scope Lens
+Ability: Battle Armor
+Level: 47
+Nature: NATURE_ADAMANT
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Body Slam
-- Ice Beam
-- Sheer Cold
+- Stealth Rock
+- Rapid Spin
+- Stone Edge
+- X-Scissor
+
+Golem @ Custap Berry
+Ability: Sturdy
+Nature: NATURE_ADAMANT
+Level: 47
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Defense Curl
+- Rollout
+- Earthquake
+- Explosion
+
+Cradily @ Big Root
+Level: 47
+Nature: NATURE_BOLD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leech Seed
+- Giga Drain
+- Ancient Power
+- Ingrain
+
+Relicanth @ Rindo Berry
+Nature: NATURE_JOLLY
+Ability: Rock Head
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Yawn
+- Sand Storm
+- Head Smash
+- Liquidation
+
+Steelix @ Rocky Helmet
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Heavy Slam
+- Sand Storm
+- Earthquake
+- Dragon Tail
+
+Probopass @ Air Balloon
+Level: 52
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Power Gem
+- Pain Split
+- Thunderbolt
 
 === TRAINER_DRAKE ===
-Name: DRAKE
+Name: WALLACE
 Class: Elite Four
-Pic: Elite Four Drake
+Pic: Champion Wallace
 Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
 
-Shelgon
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rock Tomb
-- Dragon Claw
-- Protect
-- Double Edge
+Wailord @ Leftovers
+Level: 57
+Ability: Pressure
+Nature: NATURE_CALM
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Whirlpool
+- Noble Roar
+- Toxic
+- Rest
 
-Altaria
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
-
-Kingdra
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Smokescreen
-- Dragon Dance
-- Surf
-- Body Slam
-
-Flygon
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Crunch
-- Dragon Breath
-- Earthquake
-
-Salamence @ Sitrus Berry
+Eelektross @ Assault Vest
 Level: 55
+Ability: Levitate
+Nature: NATURE_SASSY
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
-- Dragon Claw
-- Rock Slide
+- Supercell Slam
+- Aqua Tail
+- Giga Drain
+
+Ludicolo @ Damp Rock
+Ability: Swift Swim
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Surf
+- Rain Dance
+- Double Team
+
+Whiscash @ Power Herb
+Ability: Oblivious
+Nature: NATURE_SASSY
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Surf
+- Amnesia
+- Hyper Beam
+
+Gyarados @ Mystic Water
+Ability: Moxie
+Nature: Nature_Jolly
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Earthquake
 - Crunch
+- Waterfall
+
+Milotic @ Flame Orb
+Ability: Marvel Scale
+Nature: NATURE_CALM
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Recover
+- Mirror Coat
+- Ice Beam
+- Scald
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -6241,7 +6294,7 @@ Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLACE ===
-Name: WALLACE
+Name: VITO
 Class: Champion
 Pic: Champion Wallace
 Gender: Male
@@ -6249,55 +6302,64 @@ Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
-Mugshot: Yellow
+Mugshot: Green
 
-Wailord
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Spout
-- Double Edge
-- Blizzard
-
-Tentacruel
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
-- Hydro Pump
-- Sludge Bomb
-- Ice Beam
-
-Ludicolo
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Surf
-- Leech Seed
-- Double Team
-
-Whiscash
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Surf
-- Amnesia
-- Hyper Beam
-
-Gyarados
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Dance
-- Earthquake
-- Hyper Beam
-- Surf
-
-Milotic @ Sitrus Berry
+Swalot @ Black Sludge
 Level: 58
+Ability: Sticky Hold
+Nature: NATURE_CALM
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Recover
-- Surf
+- Yawn
+- Sludge Bomb
+- Pain Split
 - Ice Beam
-- Toxic
+
+Skarmory @ Rocky Helmet
+Level: 58
+Nature: NATURE_CAREFUL
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Press
+- Brave Bird
+- Iron Defense
+- Roost
+
+Centiskorch @ Assault Vest
+Level: 59
+Nature: NATURE_JOLLY
+Ability: Flame Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leech Life
+- Fire Lash
+- Power Whip
+- Burn Up
+
+Alakazam @ Focus Sash
+Level: 58
+Nature: NATURE_TIMID
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psyshock
+- Focus Blast
+- Shadow Ball
+- Focus Blast
+
+Garchomp @ Loaded Dice
+Level: 58
+Nature: NATURE_JOLLY
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sword Dance
+- Scale Shot
+- Earthquake
+- Fire Fang
+
+Shiftry @ Tanga Berry
+Level: 60
+Nature: NATURE_ADAMANT
+Ability: Wind Rider
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Knock Off
+- Tailwind
+- Sucker Punch
 
 === TRAINER_ANDREW ===
 Name: ANDREW
