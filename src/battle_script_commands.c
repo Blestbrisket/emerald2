@@ -1549,10 +1549,18 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u
         if (HasWeatherEffect() && (gBattleWeather & (B_WEATHER_HAIL | B_WEATHER_SNOW)))
             calc = (calc * 80) / 100; // 1.2 snow cloak loss
         break;
+    case ABILITY_WATER_MELD:
+        if (HasWeatherEffect() && (gBattleWeather & (B_WEATHER_RAIN)))
+            calc = (calc * 80) / 100; // 1.2 snow cloak loss
+        break;
     case ABILITY_TANGLED_FEET:
         if (gBattleMons[battlerDef].status2 & STATUS2_CONFUSION)
             calc = (calc * 50) / 100; // 1.5 tangled feet loss
         break;
+    case ABILITY_JUNGLER:
+        if (gFieldStatuses & STATUS_FIELD_GRASSY_TERRAIN)
+            calc = (calc * 80) / 100; // 1.2 jungler loss
+        break;    
     }
 
     // Attacker's ally's ability

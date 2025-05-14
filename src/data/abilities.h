@@ -2414,8 +2414,96 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .name = _("Geothermal"),
         .description = COMPOUND_STRING("Fire or Ground hits up SpAtk"),
         .aiRating = 8,
-        .cantBeCopied = TRUE,
-        .cantBeSwapped = TRUE,
-        .cantBeTraced = TRUE,
+    },
+
+    [ABILITY_OILY] =
+    {
+        .name = _("Oily"),
+        .description = COMPOUND_STRING("Oily properties."),
+        .aiRating = 8,
+    },
+
+    [ABILITY_GASEOUS] =
+    {
+        .name = _("Gaseous"),
+        .description = COMPOUND_STRING("Gaseous properties."),
+        .aiRating = 8,
+    },
+
+    [ABILITY_FLOCK] =
+    {
+        .name = _("Flock"),
+        .description = COMPOUND_STRING("Ups Flying moves in a pinch."),
+        .aiRating = 8,
+    },    
+
+    [ABILITY_BRASS_VOICE] =
+    {
+        .name = _("Brass Voice"),
+        .description = COMPOUND_STRING("Makes sound moves Steel."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_HAUNTING_VOICE] =
+    {
+        .name = _("Haunting Voice"),
+        .description = COMPOUND_STRING("Makes sound moves Ghost."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_MAGNET_TRAIN] =
+    {
+        .name = _("Magnet Train"),
+        .description = COMPOUND_STRING("Faster on electricity."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_EXCAVATOR] =
+    {
+        .name = _("Excavator"),
+        .description = COMPOUND_STRING("Powers up Ground moves."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_BLIND_SPOT] =
+    {
+        .name = _("Excavator"),
+        .description = COMPOUND_STRING("Negates Sight based moves."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_BUG_TRAP] =
+    {
+        .name = _("Bug Trap"),
+        .description = COMPOUND_STRING("Traps bugs."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_FISHERMON] =
+    {
+        .name = _("Fishermon"),
+        .description = COMPOUND_STRING("Traps water Types."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_WATER_MELD] =
+    {
+        .name = _("Water Meld"),
+        .description = COMPOUND_STRING("Ups evasion in rain."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_SNOW_FLURRY] =
+    {
+        .name = _("Snow FLurry"),
+        .description = COMPOUND_STRING("Creates snow when hit."),
+        .aiRating = 5,
+    },
+
+        [ABILITY_JUNGLER] =
+    {
+        .name = _("Jungler"),
+        .description = COMPOUND_STRING("Ups evasion in grass"),
+        .aiRating = 5,
     },
 };
