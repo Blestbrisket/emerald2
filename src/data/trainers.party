@@ -507,21 +507,37 @@ Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FREDRICK ===
-Name: FREDRICK
-Class: Expert
+Name: Mike
+Class: Black Belt
 Pic: Expert M
 Gender: Male
 Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
-Makuhita
+Hitmonlee @ Normal Gem
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Blaze Kick
+- Low Sweep
+- Mega Kick
 
-Machoke
+Hitmonchan @ Punching Glove
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fire Punch
+- Drain Punch
+- Thunder Punch
+- Ice Punch
+
+Hitmontop @ Black Belt
+Level: 30
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Upper Hand
+- Feint
+- Sucker Punch
+- Triple Kick
 
 === TRAINER_MATT ===
 Name: MATT
@@ -4370,13 +4386,29 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 30
+Abra @ Light Clay
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Teleport
+- Ally Switch
+- Reflect
+- Light Screen
 
-Lunatone
+Kadabra @ Eviolite
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Kinesis
+- Future Sight
+- Focus Blast
+
+Alakazam @ Silk Scarf
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Kinesis
+- Swift
+- Shock Wave
 
 === TRAINER_JACKI_2 ===
 Name: JACKI
@@ -4387,13 +4419,30 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
+Abra @ Light Clay
 Level: 34
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Teleport
+- Ally Switch
+- Reflect
+- Light Screen
 
-Lunatone
-Level: 34
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Kadabra @ Eviolite
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Kinesis
+- Future Sight
+- Focus Blast
+
+Alakazam @ Silk Scarf
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Kinesis
+- Swift
+- Shock Wave
+
 
 === TRAINER_JACKI_3 ===
 Name: JACKI
@@ -4404,13 +4453,29 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 37
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Kadabra @ Light Clay
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Teleport
+- Ally Switch
+- Reflect
+- Light Screen
 
-Lunatone
-Level: 37
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Kadabra @ Eviolite
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Kinesis
+- Future Sight
+- Focus Blast
+
+Alakazam @ Silk Scarf
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Kinesis
+- Swift
+- Shock Wave
 
 === TRAINER_JACKI_4 ===
 Name: JACKI
@@ -4421,13 +4486,29 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 40
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Kadabra @ Light Clay
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Teleport
+- Ally Switch
+- Reflect
+- Light Screen
 
-Lunatone
-Level: 40
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Alakazam @ Eviolite
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Kinesis
+- Future Sight
+- Focus Blast
+
+Alakazam @ Silk Scarf
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Kinesis
+- Swift
+- Shock Wave
 
 === TRAINER_JACKI_5 ===
 Name: JACKI
@@ -4438,13 +4519,29 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Lunatone
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Alakazam @ Light Clay
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Teleport
+- Ally Switch
+- Reflect
+- Light Screen
 
-Alakazam
-Level: 43
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+Alakazam @ Eviolite
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Kinesis
+- Future Sight
+- Focus Blast
+
+Alakazam @ Silk Scarf
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Kinesis
+- Swift
+- Shock Wave
 
 === TRAINER_WALTER_1 ===
 Name: WALTER
