@@ -2408,4 +2408,14 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+
+    [ABILITY_GEOTHERMAL] =
+    {
+        .name = _("Geothermal"),
+        .description = COMPOUND_STRING("Fire or Ground hits up SpAtk"),
+        .aiRating = 8,
+        .cantBeCopied = TRUE,
+        .cantBeSwapped = TRUE,
+        .cantBeTraced = TRUE,
+    },
 };
