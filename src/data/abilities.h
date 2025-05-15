@@ -2526,4 +2526,26 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 4,
         .breakable = TRUE,
     },
+
+    [ABILITY_HYPNOTIST] =
+    {
+        .name = _("Hypnotist"),
+        .description = COMPOUND_STRING("May induce sleep on contact."),
+        .aiRating = 4,
+        .breakable = TRUE,
+    },
+
+    [ABILITY_KEEPER] =
+    {
+        .name = _("Keeper"),
+        .description = COMPOUND_STRING("Avoids some projectiles."),
+        .aiRating = 7,
+    },
+
+    [ABILITY_ROCK_DRUMMER] =
+    {
+        .name = _("Rock Drummer"),
+        .description = COMPOUND_STRING("Makes sound moves Rock."),
+        .aiRating = 7,
+    },
 };

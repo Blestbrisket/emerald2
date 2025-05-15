@@ -6027,6 +6027,10 @@ u32 GetDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler, u8 *ateBoost)
     {
         return TYPE_STEEL;
     }
+    else if (IsSoundMove(move) && ability == ABILITY_ROCK_DRUMMER)
+    {
+        return TYPE_ROCK;
+    }
     else if (IsSoundMove(move) && ability == ABILITY_HAUNTING_VOICE)
     {
         return TYPE_GHOST;

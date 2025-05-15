@@ -196,6 +196,7 @@ enum RandomTag
     RNG_AI_PREDICT_SWITCH,
     RNG_HEALER,
     RNG_DEXNAV_ENCOUNTER_LEVEL,
+    RNG_HYPNOTIST,
 };
 
 #define RandomWeighted(tag, ...) \
