@@ -2470,6 +2470,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .name = _("Excavator"),
         .description = COMPOUND_STRING("Negates Sight based moves."),
         .aiRating = 5,
+        .breakable = TRUE,
     },
 
         [ABILITY_BUG_TRAP] =
@@ -2491,6 +2492,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .name = _("Water Meld"),
         .description = COMPOUND_STRING("Ups evasion in rain."),
         .aiRating = 5,
+        .breakable = TRUE,
     },
 
         [ABILITY_SNOW_FLURRY] =
@@ -2498,6 +2500,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .name = _("Snow FLurry"),
         .description = COMPOUND_STRING("Creates snow when hit."),
         .aiRating = 5,
+        .breakable = TRUE,
     },
 
         [ABILITY_JUNGLER] =
@@ -2505,5 +2508,22 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .name = _("Jungler"),
         .description = COMPOUND_STRING("Ups evasion in grass"),
         .aiRating = 5,
+        .breakable = TRUE,
+    },
+
+    [ABILITY_CACAPHONY] =
+    {
+        .name = _("Cacaphony"),
+        .description = COMPOUND_STRING("Ups and resists sound."),
+        .aiRating = 2,
+        .breakable = TRUE,
+    },
+
+    [ABILITY_SCRATCHPROOF] =
+    {
+        .name = _("Scratchproof"),
+        .description = COMPOUND_STRING("Resists sharp moves."),
+        .aiRating = 4,
+        .breakable = TRUE,
     },
 };

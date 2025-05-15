@@ -4261,6 +4261,14 @@ bool32 CanAbilityBlockMove(u32 battlerAtk, u32 battlerDef, u32 move, u32 ability
             battleScriptBlocksMove = BattleScript_SoundproofProtected;
         }
         break;
+    case ABILITY_SCRATCHPROOF:
+        if (IsSlicingMove(move) && !(moveTarget & MOVE_TARGET_USER))
+        {
+            if (gBattleMons[battlerAtk].status2 & STATUS2_MULTIPLETURNS)
+                gHitMarker |= HITMARKER_NO_PPDEDUCT;
+            battleScriptBlocksMove = BattleScript_SoundproofProtected;
+        }
+        break;
     case ABILITY_BULLETPROOF:
         if (IsBallisticMove(move))
         {
@@ -9520,6 +9528,10 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageCalculationData *
         if (IsSoundMove(move))
             modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
         break;
+    case ABILITY_CACAPHONY:
+        if (IsSoundMove(move))
+            modifier = uq4_12_multiply(modifier, UQ_4_12(1.4));
+        break;
     case ABILITY_STEELY_SPIRIT:
         if (moveType == TYPE_STEEL)
             modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
@@ -10348,6 +10360,10 @@ static inline uq4_12_t GetDefenderAbilitiesModifier(u32 move, u32 moveType, u32 
     case ABILITY_PUNK_ROCK:
         if (IsSoundMove(move))
             return UQ_4_12(0.5);
+        break;
+    case ABILITY_CACAPHONY:
+        if (IsSoundMove(move))
+            return UQ_4_12(0.6);
         break;
     case ABILITY_ICE_SCALES:
         if (IsBattleMoveSpecial(move))

@@ -6023,6 +6023,14 @@ u32 GetDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler, u8 *ateBoost)
     {
         return TYPE_WATER;
     }
+    else if (IsSoundMove(move) && ability == ABILITY_BRASS_VOICE)
+    {
+        return TYPE_STEEL;
+    }
+    else if (IsSoundMove(move) && ability == ABILITY_HAUNTING_VOICE)
+    {
+        return TYPE_GHOST;
+    }
     else if (moveEffect == EFFECT_AURA_WHEEL && species == SPECIES_MORPEKO_HANGRY)
     {
         return TYPE_DARK;
