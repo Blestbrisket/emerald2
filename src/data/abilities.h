@@ -2548,4 +2548,61 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Makes sound moves Rock."),
         .aiRating = 7,
     },
+
+    [ABILITY_FIRE_FIGHTER] =
+    {
+        .name = _("Fire Fighter"),
+        .description = COMPOUND_STRING("FIGHTING moves may burn"),
+        .aiRating = 4,
+    },
+
+    [ABILITY_MUD_RUSH] =
+    {
+        .name = _("Mud Rush"),
+        .description = COMPOUND_STRING("Raises Speed in rain and sand."),
+        .aiRating = 6,
+    },
+
+    [ABILITY_JUNGLER] =
+    {
+        .name = _("Jungler"),
+        .description = COMPOUND_STRING("Raises Speed in grass."),
+        .aiRating = 6,
+    },
+
+    [ABILITY_DRY_WINGED] =
+    {
+        .name = _("Dry Winged"),
+        .description = COMPOUND_STRING("Raises Speed in sun."),
+        .aiRating = 6,
+    },
+
+    [ABILITY_SWEET_AROMA] =
+    {
+        .name = _("Sweet Aroma"),
+        .description = COMPOUND_STRING("Lowers evasion on entry."),
+        .aiRating = 6,
+    },
+
+    [ABILITY_FLARE_UP] =
+    {
+        .name = _("Flare Up"),
+        .description = COMPOUND_STRING("Gets Angry when crit."),
+        .aiRating = 6,
+    },
+
+    [ABILITY_WIND_SWEPT] =
+    {
+        .name = _("Windswept"),
+        .description = COMPOUND_STRING("Ups speed if hit by wind."),
+        .aiRating = 6,
+    },
+
+    [ABILITY_SAND_COMPACTION] =
+    {
+        .name = _("Sand Compaction"),
+        .description = COMPOUND_STRING("Ground ups defense."),
+        .aiRating = 6,
+    },
+
 };

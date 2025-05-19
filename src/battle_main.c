@@ -4729,6 +4729,14 @@ u32 GetBattlerTotalSpeedStatArgs(u32 battler, u32 ability, u32 holdEffect)
             speed *= 2;
         else if (ability == ABILITY_SLUSH_RUSH  && (gBattleWeather & (B_WEATHER_HAIL | B_WEATHER_SNOW)))
             speed *= 2;
+        else if (ability == ABILITY_MUD_RUSH && holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA && (gBattleWeather & (B_WEATHER_RAIN | B_WEATHER_SANDSTORM)))
+            speed *= 2;
+        else if (ability == ABILITY_MUD_RUSH && holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA && gBattleWeather & B_WEATHER_SUN)
+            speed *= 0.5;
+        else if (ability == ABILITY_DRY_WINGED && holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA && gBattleWeather & B_WEATHER_SUN)
+            speed *= 2;
+        else if (ability == ABILITY_DRY_WINGED && holdEffect != HOLD_EFFECT_UTILITY_UMBRELLA && gBattleWeather & B_WEATHER_RAIN)
+            speed *= 0.5;        
     }
 
     // other abilities
@@ -4736,6 +4744,8 @@ u32 GetBattlerTotalSpeedStatArgs(u32 battler, u32 ability, u32 holdEffect)
         speed = (speed * 150) / 100;
     else if (ability == ABILITY_SURGE_SURFER && gFieldStatuses & STATUS_FIELD_ELECTRIC_TERRAIN)
         speed *= 2;
+    else if (ability == ABILITY_JUNGLER && gFieldStatuses & STATUS_FIELD_GRASSY_TERRAIN)
+        speed *= 2;    
     else if (ability == ABILITY_SLOW_START && gDisableStructs[battler].slowStartTimer != 0)
         speed /= 2;
     else if (ability == ABILITY_PROTOSYNTHESIS && !(gBattleMons[battler].status2 & STATUS2_TRANSFORMED) && ((gBattleWeather & B_WEATHER_SUN && HasWeatherEffect()) || gDisableStructs[battler].boosterEnergyActivates))

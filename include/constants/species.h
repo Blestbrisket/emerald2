@@ -1636,6 +1636,8 @@
 #define SPECIES_URSHIFU_RAPID_STRIKE_GMAX               1522
 #define SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GMAX         SPECIES_URSHIFU_RAPID_STRIKE_GMAX
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
+#define SPECIES_BURMY_SNOW                              1524
+#define SPECIES_WORMADAM_SNOW                           1525
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 
 #define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)

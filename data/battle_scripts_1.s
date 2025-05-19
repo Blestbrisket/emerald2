@@ -6364,6 +6364,31 @@ BattleScript_AngerShellRet:
 	restoreattacker
 	return
 
+BattleScript_BlindFuryActivates::
+	saveattacker
+	copybyte gBattlerAttacker, gBattlerTarget
+	call BattleScript_AbilityPopUp
+	jumpifstat BS_TARGET, CMP_LESS_THAN, STAT_ATK, MAX_STAT_STAGE, BattleScript_BlindFuryTryAcc
+	jumpifstat BS_TARGET, CMP_LESS_THAN, STAT_SPATK, MAX_STAT_STAGE, BattleScript_BlindFuryTryAcc
+	jumpifstat BS_TARGET, CMP_LESS_THAN, STAT_SPEED, MAX_STAT_STAGE, BattleScript_BlindFuryTryAcc
+	jumpifstat BS_TARGET, CMP_GREATER_THAN, STAT_ACC, MIN_STAT_STAGE, BattleScript_BlindFuryTryAcc
+	jumpifstat BS_TARGET, CMP_EQUAL, STAT_EVASION, MIN_STAT_STAGE, BattleScript_RestoreAttackerButItFailed
+BattleScript_BlindFuryTryAcc::
+	setbyte sSTAT_ANIM_PLAYED, FALSE
+	modifybattlerstatstage BS_ATTACKER, STAT_ACC, DECREASE, 3, BattleScript_BlindFuryTryEvasion, ANIM_ON
+BattleScript_BlindFuryTryEvasion:
+	modifybattlerstatstage BS_ATTACKER, STAT_EVASION, DECREASE, 2, BattleScript_BlindFuryTryAttack, ANIM_ON
+BattleScript_BlindFuryTryAttack:
+	setbyte sSTAT_ANIM_PLAYED, FALSE
+	modifybattlerstatstage BS_ATTACKER, STAT_ATK, INCREASE, 2, BattleScript_BlindFuryTrySpAtk, ANIM_ON
+BattleScript_BlindFuryTrySpAtk:
+	modifybattlerstatstage BS_ATTACKER, STAT_SPATK, INCREASE, 4, BattleScript_BlindFuryTrySpeed, ANIM_ON
+BattleScript_BlindFuryTrySpeed:
+	modifybattlerstatstage BS_ATTACKER, STAT_SPEED, INCREASE, 2, BattleScript_BlindFuryRet, ANIM_ON
+BattleScript_BlindFuryRet:
+	restoreattacker
+	return
+
 BattleScript_WindPowerActivates::
 	call BattleScript_AbilityPopUp
 	setcharge BS_TARGET

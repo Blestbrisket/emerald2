@@ -1626,6 +1626,7 @@ bool32 ShouldSetSandstorm(u32 battler, u32 ability, u32 holdEffect)
       || ability == ABILITY_SAND_RUSH
       || ability == ABILITY_SAND_FORCE
       || ability == ABILITY_OVERCOAT
+      || ability == ABILITY_MUD_RUSH
       || ability == ABILITY_MAGIC_GUARD
       || holdEffect == HOLD_EFFECT_SAFETY_GOGGLES
       || IS_BATTLER_ANY_TYPE(battler, TYPE_ROCK, TYPE_GROUND, TYPE_STEEL)
@@ -1670,6 +1671,7 @@ bool32 ShouldSetRain(u32 battlerAtk, u32 atkAbility, u32 holdEffect)
      && (atkAbility == ABILITY_SWIFT_SWIM
       || atkAbility == ABILITY_FORECAST
       || atkAbility == ABILITY_HYDRATION
+      || atkAbility == ABILITY_MUD_RUSH
       || atkAbility == ABILITY_RAIN_DISH
       || atkAbility == ABILITY_DRY_SKIN
       || HasMoveEffect(battlerAtk, EFFECT_THUNDER)
@@ -1694,6 +1696,7 @@ bool32 ShouldSetSun(u32 battlerAtk, u32 atkAbility, u32 holdEffect)
       || atkAbility == ABILITY_LEAF_GUARD
       || atkAbility == ABILITY_SOLAR_POWER
       || atkAbility == ABILITY_HARVEST
+      || atkAbility == ABILITY_DRY_WINGED
       || HasMoveEffect(battlerAtk, EFFECT_SOLAR_BEAM)
       || HasMoveEffect(battlerAtk, EFFECT_MORNING_SUN)
       || HasMoveEffect(battlerAtk, EFFECT_SYNTHESIS)

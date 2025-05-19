@@ -9777,7 +9777,7 @@ u32 IsFlowerVeilProtected(u32 battler)
 u32 IsLeafGuardProtected(u32 battler, u32 ability)
 {
     if (IsBattlerWeatherAffected(battler, B_WEATHER_SUN))
-        return ability == ABILITY_LEAF_GUARD;
+        return ability == ABILITY_LEAF_GUARD | ABILITY_DRY_WINGED;
     else
         return 0;
 }

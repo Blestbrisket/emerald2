@@ -4164,10 +4164,16 @@ $(POKEMONGFXDIR)/burmy/sandy/overworld.4bpp: %.4bpp: %.png
 $(POKEMONGFXDIR)/burmy/trash/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
+$(POKEMONGFXDIR)/burmy/snow/overworld.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
 $(POKEMONGFXDIR)/wormadam/sandy/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(POKEMONGFXDIR)/wormadam/trash/overworld.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(POKEMONGFXDIR)/wormadam/snow/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(POKEMONGFXDIR)/shellos/east/overworld.4bpp: %.4bpp: %.png

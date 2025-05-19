@@ -18993,6 +18993,34 @@ static const u16 sWormadamTrashTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+static const u16 sWormadamSnowTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_DIG,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_FLASH,
+    MOVE_GIGA_DRAIN,
+    MOVE_HYPER_BEAM,
+    MOVE_PROTECT,
+    MOVE_PSYCHIC,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_SAFEGUARD,
+    MOVE_SHADOW_BALL,
+    MOVE_SKILL_SWAP,
+    MOVE_BLIZZARD,
+    MOVE_HAIL,
+    MOVE_THIEF,
+    MOVE_TOXIC,
+    MOVE_DREAM_EATER,
+    MOVE_ENDURE,
+    MOVE_PSYCH_UP,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SWAGGER,
+    MOVE_UNAVAILABLE,
+};
+
 static const u16 sMothimTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_ATTRACT,
